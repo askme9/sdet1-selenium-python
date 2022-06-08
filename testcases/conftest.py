@@ -35,6 +35,7 @@ def browser(request):
 def url(request):
     return request.config.getoption("--url")
 
+'''
 @pytest.hookimpl(hookwrapper=True)
 def pytest_runtest_makereport(item):
     pytest_html = item.config.pluginmanager.getplugin("html")
@@ -60,3 +61,4 @@ def pytest_runtest_makereport(item):
 
 def pytest_html_report_title(report):
     report.title = "RCV Academy Automation Report"
+'''
