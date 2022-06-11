@@ -1,4 +1,5 @@
-# this is a base driver
+
+# this is a base driver and this is inherited
 import time
 
 from selenium.webdriver.support.wait import WebDriverWait
